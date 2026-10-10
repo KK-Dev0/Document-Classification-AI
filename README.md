@@ -136,7 +136,7 @@ Precision, recall and F1 are support-weighted averages.
 ## 🗂️ Repository Structure
 
 ```
-document-classification-ai/
+Document-Classification-AI/
 ├── app.py                                    # Streamlit web app
 ├── doc_classifier.joblib                     # Saved TF-IDF vectorizer + tuned Linear SVM
 ├── requirements.txt                          # Python dependencies
@@ -154,8 +154,8 @@ document-classification-ai/
 
 **Run the app locally**
 ```bash
-git clone https://github.com/KK-Dev0/document-classification-ai.git
-cd document-classification-ai
+git clone https://github.com/KK-Dev0/Document-Classification-AI.git
+cd Document-Classification-AI
 pip install -r requirements.txt
 streamlit run app.py
 ```
